@@ -8,7 +8,7 @@ Ejecuta el comando yarn
 Abre una nueva terminar en el directorio laravel
 Ejecuta el comando composer install 
 
-Configura el el archivo .env del proyecto backend-likes 
+Configura el el archivo .env del proyecto laravel
 
 En DB_USERNAME configura el usuario de tu servidor postgres
 En DB_PASSWORD Configura el password de tu servidor postgres
@@ -16,8 +16,10 @@ En DB_PASSWORD Configura el password de tu servidor postgres
 
 
 Crea la base de datos likes-app en postgre
+Dentro del proyecto laravel
 Ejecuta php artisan migrate 
 Ejecuta php artisan serve
+Dentro del proyecto react
 Ejecuta yarn dev
 
 
