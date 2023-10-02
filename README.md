@@ -1,6 +1,7 @@
 #Instalacion:
 
-Clona el repositorio https://github.com/EsauRangel/likes-app.git
+Clona el repositorio https://github.com/EsauRangel/app-likes.git
+
 Abre una terminal en el frontend-likes 
 Ejecuta el comando yarn 
 
@@ -11,9 +12,11 @@ Configura el el archivo .env del proyecto backend-likes
 
 En DB_USERNAME configura el usuario de tu servidor postgres
 En DB_PASSWORD Configura el password de tu servidor postgres
-Ejecuta el comando php artisan migrate
 
 En el archivo databse.php del directorio config configura las mismas credenciales y 'default' => env('DB_CONNECTION', 'pgsql'),
+Crea la base de datos likes-app en postgre para 
+
+Ejecuta el comando php artisan migrate
 
 
 
