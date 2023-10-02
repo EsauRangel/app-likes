@@ -2,10 +2,10 @@
 
 Clona el repositorio https://github.com/EsauRangel/app-likes.git
 
-Abre una terminal en el frontend-likes 
+Abre una terminal en el directorio react 
 Ejecuta el comando yarn 
 
-Abre una nueva terminar en el directorio backend-likes 
+Abre una nueva terminar en el directorio laravel
 Ejecuta el comando composer install 
 
 Configura el el archivo .env del proyecto backend-likes 
